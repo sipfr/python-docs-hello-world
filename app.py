@@ -6,3 +6,4 @@ app = Flask(__name__)
 def hello():
     image_list = [ f for f in os.listdir('/datasets')  ]
     return "Hello, World!! test22, image_list : " + image_list
+    
