@@ -4,6 +4,6 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello():
-    image_list = [ f for f in os.listdir('/')  ]
+    image_list = [ f for f in os.listdir('/datasets/')  ]
     return "toto" + ', '.join(image_list)
 
